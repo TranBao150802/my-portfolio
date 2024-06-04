@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('header.ejs') %>
+<body>
+<!-- ======= Header ======= -->
+<%- include('nav.ejs') %>
+<!-- End Header -->
+<div id="hero"
+     class="hero route bg-image"
+     style="background-image: url(/assets/img/hero-bg.png)"
+>
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+        <div class="table-cell">
+            <div class="container">
+                <h1 class="hero-title mb-4">PORTFOLIO</h1>
+                <p class="hero-subtitle">
+              <span class="typed"
+                    data-typed-items="<%= personalInfo.profile %>"
+              ></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img src="<%= personalInfo.avatar %>"
+                                                 class="img-fluid rounded b-shadow-a"
+                                                 alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p>
+                                                <span class="title-s">Name: </span>
+                                                <span><%= personalInfo.name %></span>
+                                            </p>
+                                            <p>
+                                                <span class="title-s">Profile: </span>
+                                                <span><%= personalInfo.profile %></span>
+                                            </p>
+                                            <p>
+                                                <span class="title-s">Email: </span>
+                                                <span><%= personalInfo.email %></span>
+                                            </p>
+                                            <p>
+                                                <span class="title-s">Phone: </span>
+                                                <span><%= personalInfo.phone %></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-mf">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <p class="title-s">Development Skills</p>
+                                                <% personalInfo.developmentSkill.forEach(skill => {
+                                                %>
+                                                    <span><%= skill.name %></span>
+                                                    <span class="pull-right"><%= skill.level %></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar"
+                                                             role="progressbar"
+                                                             style="width: <%= skill.level %>"
+                                                             aria-valuenow="<%= skill.level %>"
+                                                             aria-valuemin="0"
+                                                             aria-valuemax="100"
+                                                        ></div>
+                                                    </div>
+                                                <% }) %>
+                                            </div>
+                                            <div class="col">
+                                                <p class="title-s">Design Skills</p>
+                                                <% personalInfo.designSkill.forEach(skill => { %>
+                                                    <span><%= skill.name %></span>
+                                                    <span class="pull-right"><%= skill.level %></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar"
+                                                             role="progressbar"
+                                                             style="width: <%= skill.level %>"
+                                                             aria-valuenow="<%= skill.level %>"
+                                                             aria-valuemin="0"
+                                                             aria-valuemax="100"
+                                                        ></div>
+                                                    </div>
+                                                <% }) %>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">About me</h5>
+                                    </div>
+                                    <p class="lead">
+                                        <%= personalInfo.about %>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="categories" class="services-mf pt-5 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a"><%= navLinks[2].label %></h3>
+                        <p class="subtitle-a">
+                            Discover my academic background, professional experience, and personal skills that define my
+                            journey and expertise in the field of information and communication technology.
+                        </p>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <% categories.forEach(function(category) { %>
+                    <div class="col-md-4">
+                        <div class="service-box">
+                            <div class="service-ico">
+                                <span class="ico-circle"><i class="bi bi-<%= category.icon %>"></i></span>
+                            </div>
+                            <div class="service-content">
+                                <h2 class="s-title"><%= category.label %></h2>
+                                <p class="s-description text-center"><%= category.description %></p>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Section -->
+
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image"
+         style="background-image: url(/assets/img/counters-bg.jpg)"
+    >
+        <div class="overlay-mf"></div>
+        <div class="container position-relative">
+            <div class="row">
+                <% personalInfo.stats.forEach(stats => { %>
+                    <div class="col-sm-3 col-lg-3">
+                        <div class="counter-box counter-box pt-4 pt-md-0">
+                            <div class="counter-ico">
+                                <span class="ico-circle"><i class="<%= stats.icon %>"></i></span>
+                            </div>
+                            <div class="counter-num">
+                                <p data-purecounter-start="0"
+                                   data-purecounter-end="<%= stats.value %>"
+                                   data-purecounter-duration="1"
+                                   class="counter purecounter"
+                                ></p>
+                                <span class="counter-text"><%= stats.label %></span>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </div>
+    <!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="title-box text-center">
+                        <h3 class="title-a"><%= navLinks[3].label %></h3>
+                        <p class="subtitle-a">
+                            Here are some of the projects that showcase my skills and experience in graphic design. Each
+                            project highlights my ability to blend creativity with technical proficiency, resulting in
+                            unique and effective designs. These projects include web design, branding, and multimedia
+                            communications, demonstrating my versatility and commitment to delivering high-quality work.
+                        </p>
+                        <div class="line-mf"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <% projects.forEach(project => { %>
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <% if (project.linkVideo) { %>
+                                <a href="<%= project.linkVideo %>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                    <div class="work-img" style="width: 416px; height: 290px">
+                                        <img src="<%= project.hero %>" alt="" class="img-fluid" />
+                                    </div>
+                                </a>
+                            <% } else { %>
+                                <a href="<%= project.hero %>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                    <div class="work-img" style="width: 416px; height: 290px">
+                                        <img src="<%= project.hero %>" alt="" class="img-fluid" />
+                                    </div>
+                                </a>
+                            <% } %>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title"><%= project.title %></h2>
+                                        <div class="w-more">
+                                            <span class="w-ctegory"><%= project.category %></span> /
+                                            <span class="w-date"><%= formatDate(project.date) %></span>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="w-like">
+                                            <a href="/project/<%= project.id %>"><span class="bi bi-arrow-return-right"></span></a></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <!--    <%- include('contact-us.ejs') %>-->
+    <!-- End Contact Section -->
+</main>
+<!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<%- include('footer.ejs') %>
+<!-- End  Footer -->
+
+<div id="preloader"></div>
+<a
+        href="#"
+        class="back-to-top d-flex align-items-center justify-content-center"
+><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+<!-- Vendor JS Files -->
+<script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/vendor/typed.js/typed.umd.js"></script>
+<script src="/assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

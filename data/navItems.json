@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Home",
+    "url": "#hero",
+    "icon": "home"
+  },
+  {
+    "label": "About",
+    "url": "#about",
+    "icon": "user"
+  },
+  {
+    "label": "Profile Highlights",
+    "url": "#categories",
+    "icon": "briefcase"
+  },
+  {
+    "label": "Projects",
+    "url": "#work",
+    "icon": "grid"
+  },
+  {
+    "label": "",
+    "url": "#blog",
+    "icon": "star"
+  },
+  {
+    "label": "",
+    "url": "#contact",
+    "icon": "envelope"
+  }
+]

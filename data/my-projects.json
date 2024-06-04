@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "title": "Artistic Letters (Cristiano Ronaldo)",
+    "category": "Design",
+    "description": "This is a magazine about Cristiano Ronaldo, the best football player in the world.",
+    "author": "Tran Gia Bao",
+    "linkVideo": null,
+    "date": "2023-03-15",
+    "hero": "/assets/img/projects/tapchi-7cho.jpg",
+    "images": [
+      "/assets/img/projects/tapchi-7cho2.jpg",
+      "/assets/img/projects/tapchi-7cho3.jpg",
+      "/assets/img/projects/tapchi-7cho4.jpg",
+      "/assets/img/projects/tapchi-7cho5.jpg",
+      "/assets/img/projects/tapchi-7cho6.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Artistic Letters (Lang Gom)",
+    "category": "Design",
+    "description": "This is a magazine about Cristiano Ronaldo, the best football player in the world.",
+    "author": "Tran Gia Bao",
+    "linkVideo": null,
+    "date": "2023-05-23",
+    "hero": "/assets/img/projects/tapchi-langgom.jpg",
+    "images": [
+      "/assets/img/projects/tapchi-langgom.jpg",
+      "/assets/img/projects/tapchi-langgom2.jpg",
+      "/assets/img/projects/tapchi-langgom3.jpg",
+      "/assets/img/projects/tapchi-langgom4.jpg",
+      "/assets/img/projects/tapchi-langgom5.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Game Unity",
+    "category": "Game Design",
+    "description": "This is a game design about a game called 'The Last of Us'.",
+    "author": "Tran Gia Bao",
+    "linkVideo": null,
+    "date": "2023-06-18",
+    "hero": "/assets/img/projects/unity-game.jpg",
+    "images": [
+      "/assets/img/projects/unity-game.jpg",
+      "/assets/img/projects/unity-game2.jpg",
+      "/assets/img/projects/unity-game3.jpg",
+      "/assets/img/projects/unity-game4.jpg",
+      "/assets/img/projects/unity-game5.jpg",
+      "/assets/img/projects/unity-game6.jpg",
+      "/assets/img/projects/unity-game7.jpg",
+      "/assets/img/projects/unity-game8.jpg",
+      "/assets/img/projects/unity-game9.jpg",
+      "/assets/img/projects/unity-game10.jpg",
+      "/assets/img/projects/unity-game11.jpg",
+      "/assets/img/projects/unity-game12.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "3Ds Max (Character)",
+    "category": "3Ds Max",
+    "description": "This is a game design about a game called 'The Last of Us'.",
+    "author": "Tran Gia Bao",
+    "linkVideo": null,
+    "date": "2023-07-27",
+    "hero": "/assets/img/projects/3dsmax6.jpg",
+    "images": [
+      "/assets/img/projects/3dsmax3.jpg",
+      "/assets/img/projects/3dsmax4.jpg",
+      "/assets/img/projects/3dsmax5.jpg",
+      "/assets/img/projects/3dsmax6.jpg",
+      "/assets/img/projects/3dsmax7.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "3Ds Max (Living Room)",
+    "category": "3Ds Max",
+    "description": "This is a game design about a game called 'The Last of Us'.",
+    "author": "Tran Gia Bao",
+    "linkVideo": null,
+    "date": "2023-08-23",
+    "hero": "/assets/img/projects/3dsmax.jpg",
+    "images": [
+      "/assets/img/projects/3dsmax.jpg",
+      "/assets/img/projects/3dsmax1.jpg",
+      "/assets/img/projects/3dsmax2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Video Lyrics Typographic",
+    "category": "Lyrics Typographic",
+    "description": "Video Lyrics Typographic of the song 'Girl Like You'.",
+    "author": "Tran Gia Bao",
+    "linkVideo": "https://www.youtube.com/embed/GmAOBTpUCqg?si=ay6l0S2vT5qw66DV",
+    "date": "2023-09-15",
+    "hero": "/assets/img/projects/lyrics-typographic.jpg",
+    "images": [
+      "/assets/img/projects/lyrics-typographic.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Video Ads (Pepsi)",
+    "category": "Video Ads",
+    "description": "This is a video ads about Pepsi.",
+    "author": "Tran Gia Bao",
+    "linkVideo": "https://www.youtube.com/embed/5bbJXu_ec4A?si=Y4ZRoPG9TEFl5rLW",
+    "date": "2023-10-23",
+    "hero": "/assets/img/projects/video-ads-pepsi.jpg",
+    "images": [
+      "/assets/img/projects/video-ads-pepsi.jpg"
+    ]
+  }
+]

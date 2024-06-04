@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Education",
+    "description": "VIETNAM - KOREA UNIVERSITY OF INFORMATION AND COMMUNICATION TECHNOLOGY\nSPECIALIZED: MULTIMEDIA COMMUNICATIONS\nStudying information and communication technology majors.",
+    "icon": "book"
+  },
+  {
+    "label": "Experience",
+    "description": "Proficient in using graphic design tools and skilled in WordPress programming.",
+    "icon": "building"
+  },
+  {
+    "label": "Personal",
+    "description": "Strong team player with excellent time management skills, dedicated to delivering results and continuously improving.",
+    "icon": "clock"
+  }
+]
