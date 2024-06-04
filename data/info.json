@@ -9,15 +9,18 @@
   "socials": [
     {
       "name": "facebook",
-      "url": "https://www.facebook.com/gibaotran593"
+      "icon": "bi bi-facebook",
+      "url": "https://www.facebook.com/profile.php?id=100011865033214"
     },
     {
       "name": "instagram",
-      "url": "https://www.instagram.com/gibaotran593"
+      "icon": "bi bi-instagram",
+      "url": "https://www.instagram.com/tranbao08/"
     },
     {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com/in/gibaotran593"
+      "name": "github",
+      "icon": "bi bi-github",
+      "url": "https://github.com/TranBao150802"
     }
   ],
   "developmentSkill": [

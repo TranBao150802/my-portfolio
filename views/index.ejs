@@ -60,6 +60,13 @@
                                                 <span class="title-s">Phone: </span>
                                                 <span><%= personalInfo.phone %></span>
                                             </p>
+                                            <div class="d-flex gap-3">
+                                                <% personalInfo.socials.forEach(item => { %>
+                                                    <a href="<%= item.url %>">
+                                                        <i class="<%= item.icon %>"></i>
+                                                    </a>
+                                                <% }) %>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -207,15 +214,17 @@
                     <div class="col-md-4">
                         <div class="work-box">
                             <% if (project.linkVideo) { %>
-                                <a href="<%= project.linkVideo %>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <a href="<%= project.linkVideo %>" data-gallery="portfolioGallery"
+                                   class="portfolio-lightbox">
                                     <div class="work-img" style="width: 416px; height: 290px">
-                                        <img src="<%= project.hero %>" alt="" class="img-fluid" />
+                                        <img src="<%= project.hero %>" alt="" class="img-fluid"/>
                                     </div>
                                 </a>
                             <% } else { %>
-                                <a href="<%= project.hero %>" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                                <a href="<%= project.hero %>" data-gallery="portfolioGallery"
+                                   class="portfolio-lightbox">
                                     <div class="work-img" style="width: 416px; height: 290px">
-                                        <img src="<%= project.hero %>" alt="" class="img-fluid" />
+                                        <img src="<%= project.hero %>" alt="" class="img-fluid"/>
                                     </div>
                                 </a>
                             <% } %>
@@ -230,7 +239,8 @@
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="w-like">
-                                            <a href="/project/<%= project.id %>"><span class="bi bi-arrow-return-right"></span></a></a>
+                                            <a href="/project/<%= project.id %>"><span
+                                                        class="bi bi-arrow-return-right"></span></a></a>
                                         </div>
                                     </div>
                                 </div>
