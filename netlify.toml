@@ -1,0 +1,35 @@
+[build]
+  functions = "functions"
+  publish = "public"
+
+[functions]
+  included_files = [
+    "data/*",
+    "views/*",
+    "public/assets/css/*",
+    "public/assets/js/*",
+    "public/assets/vendor/**",
+    "public/assets/img/**",
+  ]
+  external_node_modules = ["express"]
+  node_bundler = "esbuild"
+
+[dev]
+  command = "npm start"
+
+[[redirects]]
+  force = true
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
+[[redirects]]
+  from = "/transform-small/*"
+  to = "/.netlify/images?url=/:splat&w=50&h=50"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Cache-Control = "public, max-age=31536000, must-revalidate"

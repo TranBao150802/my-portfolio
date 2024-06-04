@@ -3,116 +3,116 @@
     "id": 1,
     "title": "Artistic Letters (Cristiano Ronaldo)",
     "category": "Design",
-    "description": "This is a magazine about Cristiano Ronaldo, the best football player in the world.",
+    "description": "This magazine is a vibrant and dynamic tribute to Cristiano Ronaldo, widely regarded as one of the greatest football players of all time. Through a blend of artistic expression and insightful storytelling, it delves into Ronaldo's extraordinary journey, highlighting his achievements, personal anecdotes, and the indomitable spirit that has made him a global icon. Each page is crafted with meticulous attention to detail, combining stunning visuals and compelling narratives to celebrate Ronaldo's influence both on and off the pitch. The magazine serves as an inspiring chronicle for football enthusiasts and admirers of Ronaldo's legacy.",
     "author": "Tran Gia Bao",
     "linkVideo": null,
     "date": "2023-03-15",
-    "hero": "/assets/img/projects/tapchi-7cho.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho.jpg",
     "images": [
-      "/assets/img/projects/tapchi-7cho2.jpg",
-      "/assets/img/projects/tapchi-7cho3.jpg",
-      "/assets/img/projects/tapchi-7cho4.jpg",
-      "/assets/img/projects/tapchi-7cho5.jpg",
-      "/assets/img/projects/tapchi-7cho6.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho2.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho3.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho4.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho5.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-7cho6.jpg"
     ]
   },
   {
     "id": 2,
     "title": "Artistic Letters (Lang Gom)",
     "category": "Design",
-    "description": "This is a magazine about Cristiano Ronaldo, the best football player in the world.",
+    "description": "This edition of the magazine, titled \"Lang Gom,\" explores the rich cultural heritage and artistic traditions of Vietnamese pottery villages. It offers readers an immersive experience into the world of traditional ceramics, showcasing the intricate craftsmanship and timeless beauty of these art forms. Through captivating articles, interviews with artisans, and breathtaking photography, the magazine not only honors the legacy of these pottery villages but also brings to light the contemporary relevance and evolving artistry within this ancient craft. It is a must-read for those interested in cultural preservation and the fusion of tradition with modern artistry.",
     "author": "Tran Gia Bao",
     "linkVideo": null,
     "date": "2023-05-23",
-    "hero": "/assets/img/projects/tapchi-langgom.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom.jpg",
     "images": [
-      "/assets/img/projects/tapchi-langgom.jpg",
-      "/assets/img/projects/tapchi-langgom2.jpg",
-      "/assets/img/projects/tapchi-langgom3.jpg",
-      "/assets/img/projects/tapchi-langgom4.jpg",
-      "/assets/img/projects/tapchi-langgom5.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom2.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom3.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom4.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/tapchi-langgom5.jpg"
     ]
   },
   {
     "id": 3,
     "title": "Game Unity",
     "category": "Game Design",
-    "description": "This is a game design about a game called 'The Last of Us'.",
+    "description": "\"Game Unity\" is an in-depth exploration of the game design process behind the acclaimed title \"The Last of Us.\" This project sheds light on the intricate world-building, character development, and narrative techniques that make the game a masterpiece. Through detailed concept art, behind-the-scenes insights, and interviews with the creators, readers are taken on a journey through the creative and technical challenges faced during the game's development. It highlights the innovative use of Unity engine in creating immersive environments and lifelike characters, making it a valuable resource for aspiring game designers and enthusiasts.\n",
     "author": "Tran Gia Bao",
     "linkVideo": null,
     "date": "2023-06-18",
-    "hero": "/assets/img/projects/unity-game.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game.jpg",
     "images": [
-      "/assets/img/projects/unity-game.jpg",
-      "/assets/img/projects/unity-game2.jpg",
-      "/assets/img/projects/unity-game3.jpg",
-      "/assets/img/projects/unity-game4.jpg",
-      "/assets/img/projects/unity-game5.jpg",
-      "/assets/img/projects/unity-game6.jpg",
-      "/assets/img/projects/unity-game7.jpg",
-      "/assets/img/projects/unity-game8.jpg",
-      "/assets/img/projects/unity-game9.jpg",
-      "/assets/img/projects/unity-game10.jpg",
-      "/assets/img/projects/unity-game11.jpg",
-      "/assets/img/projects/unity-game12.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game2.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game3.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game4.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game5.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game6.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game7.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game8.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game9.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game10.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game11.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/unity-game12.jpg"
     ]
   },
   {
     "id": 4,
     "title": "3Ds Max (Character)",
     "category": "3Ds Max",
-    "description": "This is a game design about a game called 'The Last of Us'.",
+    "description": "This project focuses on the character design aspects of \"The Last of Us\" using 3Ds Max. It delves into the meticulous process of creating lifelike and emotionally resonant characters that drive the game's compelling narrative. From initial sketches to detailed 3D models, the project showcases the artistic and technical skills involved in bringing characters to life. Through step-by-step tutorials, readers can gain insights into the modeling, texturing, and rigging techniques used by industry professionals. This comprehensive guide is an essential read for anyone interested in character design and 3D modeling.",
     "author": "Tran Gia Bao",
     "linkVideo": null,
     "date": "2023-07-27",
-    "hero": "/assets/img/projects/3dsmax6.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax6.jpg",
     "images": [
-      "/assets/img/projects/3dsmax3.jpg",
-      "/assets/img/projects/3dsmax4.jpg",
-      "/assets/img/projects/3dsmax5.jpg",
-      "/assets/img/projects/3dsmax6.jpg",
-      "/assets/img/projects/3dsmax7.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax3.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax4.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax5.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax6.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax7.jpg"
     ]
   },
   {
     "id": 5,
     "title": "3Ds Max (Living Room)",
     "category": "3Ds Max",
-    "description": "This is a game design about a game called 'The Last of Us'.",
+    "description": "This project showcases the interior design capabilities of 3Ds Max through the creation of a stunningly realistic living room. It explores the various stages of the design process, from conceptualization to the final render. The project emphasizes the importance of lighting, texture, and composition in creating a warm and inviting space. By featuring detailed tutorials and breakdowns of each design element, it serves as an invaluable resource for aspiring interior designers and 3D artists looking to enhance their skills in creating photorealistic interior environments.",
     "author": "Tran Gia Bao",
     "linkVideo": null,
     "date": "2023-08-23",
-    "hero": "/assets/img/projects/3dsmax.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax.jpg",
     "images": [
-      "/assets/img/projects/3dsmax.jpg",
-      "/assets/img/projects/3dsmax1.jpg",
-      "/assets/img/projects/3dsmax2.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax1.jpg",
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/3dsmax2.jpg"
     ]
   },
   {
     "id": 6,
     "title": "Video Lyrics Typographic",
     "category": "Lyrics Typographic",
-    "description": "Video Lyrics Typographic of the song 'Girl Like You'.",
+    "description": "The \"Video Lyrics Typographic\" project is a visually captivating representation of the song \"Girl Like You.\" It combines kinetic typography with engaging animation to create a dynamic and immersive experience for viewers. Each lyric is brought to life through creative text animations that complement the song's rhythm and mood. This project not only showcases the artistic potential of typographic design but also highlights the technical skills required to synchronize text with music. It is a must-see for fans of innovative music videos and those interested in the intersection of graphic design and animation.",
     "author": "Tran Gia Bao",
     "linkVideo": "https://www.youtube.com/embed/GmAOBTpUCqg?si=ay6l0S2vT5qw66DV",
     "date": "2023-09-15",
-    "hero": "/assets/img/projects/lyrics-typographic.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/lyrics-typographic.jpg",
     "images": [
-      "/assets/img/projects/lyrics-typographic.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/lyrics-typographic.jpg"
     ]
   },
   {
     "id": 7,
     "title": "Video Ads (Pepsi)",
     "category": "Video Ads",
-    "description": "This is a video ads about Pepsi.",
+    "description": "This project is a high-energy, visually stunning advertisement for Pepsi. It leverages cutting-edge video production techniques to create a compelling and memorable ad that captures the essence of the brand. Through a blend of vibrant visuals, catchy music, and engaging storytelling, the ad aims to resonate with a wide audience, reinforcing Pepsi's image as a refreshing and youthful beverage. The project highlights the creative process behind developing impactful video advertisements, making it a valuable case study for marketing professionals and video producers alike.",
     "author": "Tran Gia Bao",
     "linkVideo": "https://www.youtube.com/embed/5bbJXu_ec4A?si=Y4ZRoPG9TEFl5rLW",
     "date": "2023-10-23",
-    "hero": "/assets/img/projects/video-ads-pepsi.jpg",
+    "hero": "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/video-ads-pepsi.jpg",
     "images": [
-      "/assets/img/projects/video-ads-pepsi.jpg"
+      "https://raw.githubusercontent.com/TranBao150802/my-portfolio/master/public/assets/img/projects/video-ads-pepsi.jpg"
     ]
   }
 ]
